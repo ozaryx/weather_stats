@@ -23,7 +23,8 @@ with open('weather2018.csv', 'r', encoding='UTF-8') as f:
                     curr_temp_sum += temp
                     curr_temp_cnt += 1
                     curr_rainy_sum += rainy
-                    weather_stat[dt] = (curr_temp_sum, curr_temp_cnt, curr_rainy_sum)
+                    weather_stat[dt] = (
+                        curr_temp_sum, curr_temp_cnt, curr_rainy_sum)
                 else:
                     weather_stat[dt] = (temp, 1, rainy)
 
