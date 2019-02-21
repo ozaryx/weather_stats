@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from datetime import datetime
+# from datetime import datetime
 
 # Формирование массива данных
 with open('weather2018.csv', 'r', encoding='UTF-8') as f:
